@@ -1,0 +1,23 @@
+.vscode/
+.git-push.sh
+
+# Terraform state and local files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# SSH private keys
+**/keys/aws_key
+**/keys/id_*
+*.pem
+*.p12
+*.pfx
+
+# Credentials and environment files
+.env
+.env.*
