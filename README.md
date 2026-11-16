@@ -123,20 +123,3 @@ Personal SSH public keys have been replaced with placeholders in the shared code
 
 All AWS resources created during this lab were removed using Terraform after testing.
 
-## Git & Version Control
-
-As part of this project, I also started learning Git and GitHub to manage and share my Terraform code.
-
-I practiced:
-
-git init – Initializing a local Git repository.
-
-git status – Checking file changes and identifying untracked files.
-
-git add – Staging files for version control.
-
-git commit – Saving project changes in Git history.
-
-git push – Publishing the project to GitHub.
-
-This helped me understand how version control can be used to organize, track, and share Infrastructure as Code projects.
