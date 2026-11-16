@@ -31,7 +31,7 @@ I used Terraform to create an EC2 instance, configure security groups, and set u
 - Explored Terraform state, reviewed infrastructure changes, and replaced an EC2 instance while troubleshooting the cloud-init setup.
 - Cleaned up the AWS resources using `terraform destroy` after completing the lab.
 
-## Terraform Commands I Practiced
+## Terraform Commands
 
 | Command | What I Used It For |
 |---|---|
