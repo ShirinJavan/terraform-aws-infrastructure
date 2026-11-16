@@ -4,7 +4,7 @@ A hands-on project exploring Infrastructure as Code (IaC) with Terraform and AWS
 
 ## Project Overview
 
-### Lesson 06 – AWS EC2 with Terraform and Cloud-Init
+### AWS EC2 with Terraform and Cloud-Init
 
 This project is part of my Terraform learning journey, where I put together the concepts covered throughout the course into one practical AWS deployment.
 
@@ -54,31 +54,31 @@ Here are a few screenshots from my lab showing the Terraform deployment, AWS res
 
 Successfully created five AWS resources using Terraform through Windows PowerShell.
 
-![Terraform Apply](lesson-06/screenshots/01-terraform-apply.png)
+![Terraform Apply](ec2-cloud-init/screenshots/01-terraform-apply.png)
 
 ### 2. Terraform Destroy
 
 Removed the resources after finishing the lab.
 
-![Terraform Destroy](lesson-06/screenshots/02-terraform-destroy.png)
+![Terraform Destroy](ec2-cloud-init/screenshots/02-terraform-destroy.png)
 
 ### 3. EC2 Instance
 
 The Ubuntu EC2 instance running in AWS, with successful status checks.
 
-![EC2 Instance](lesson-06/screenshots/03-ec2-instance.png)
+![EC2 Instance](ec2-cloud-init/screenshots/03-ec2-instance.png)
 
 ### 4. Security Groups
 
 The three security groups created through Terraform, with inbound rules for SSH, HTTP, and HTTPS.
 
-![Security Groups](lesson-06/screenshots/04-security-groups.png)
+![Security Groups](ec2-cloud-init/screenshots/04-security-groups.png)
 
 ### 5. MkDocs Website
 
 The MkDocs documentation website served through Apache after the cloud-init setup.
 
-![MkDocs Website](lesson-06/screenshots/05-mkdocs-website.png)
+![MkDocs Website](ec2-cloud-init/screenshots/05-mkdocs-website.png)
 
 ## Project Structure
 
@@ -86,7 +86,7 @@ The MkDocs documentation website served through Apache after the cloud-init setu
 terraform-aws-learning-labs/
 ├── .gitignore
 ├── README.md
-└── lesson-06/
+└── ec2-cloud-init/
     ├── instances/
     │   ├── main.tf
     │   ├── outputs.tf
