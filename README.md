@@ -117,8 +117,6 @@ There are also a few things I'd approach differently in a real-world environment
 
 ## Notes
 
-This project follows the original course exercises and was built as a learning lab, not a production deployment.
-
 Personal SSH public keys have been replaced with placeholders in the shared code. Anyone reusing the configuration will need to provide their own valid keys.
 
 All AWS resources created during this lab were removed using Terraform after testing.
