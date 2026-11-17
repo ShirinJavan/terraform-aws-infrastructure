@@ -1,4 +1,4 @@
-# Terraform AWS Learning Labs
+# AWS Infrastructure with Terraform
 
 A hands-on project exploring Infrastructure as Code (IaC) with Terraform and AWS, from provisioning cloud resources to automating server configuration.
 
@@ -83,7 +83,7 @@ The MkDocs documentation website served through Apache after the cloud-init setu
 ## Project Structure
 
 ```text
-terraform-aws-learning-labs/
+terraform-aws-infrastructure/
 ├── .gitignore
 ├── README.md
 └── ec2-cloud-init/
